@@ -25,9 +25,11 @@ a{
     font-weight: 400;
     font-style:normal;
     font-size: 18px;
+    text-decoration: none;
 }  
 .Title{
     text-align: center;
+    color:black;
 }
 body{
     background-color: darkslategray;
@@ -72,4 +74,23 @@ h1{
     font-style: normal;
     font-variation-settings:
       "ELSH" 0;
+}
+.habitat img{
+max-width: 400px;
+}
+.MinorDetails{
+ Display: flex;
+ Flex-flow: row wrap;
+ justify-content: space-evenly;
+ align-items: center;
+}
+.BasicXD{
+    Display: flex;
+    Flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;    
+    font-family:Arial, Helvetica, sans-serif;
+}
+.GenI{
+    font-family:'Times New Roman', Times, serif;
 }
